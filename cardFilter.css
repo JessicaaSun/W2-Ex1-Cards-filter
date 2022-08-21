@@ -1,0 +1,57 @@
+* {
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 40px;
+    background-color: rgb(123, 186, 123);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+}
+
+.container input {
+    width: 500px;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: 2px solid rgb(123, 186, 123);
+    border-radius: 30px;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.container input:hover {
+    border: 3px solid rgb(107, 164, 107);
+}
+
+#cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 10px 10px;
+    padding: 10px;
+    border: 2px solid  rgb(123, 186, 123);
+    border-radius: 10px;
+    width: 250px;
+    height: 290px;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
